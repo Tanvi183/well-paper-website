@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .box-container div{
+            /* border: 1px solid black; */
+        }
+        .box{
+            padding: 10px;  
+            border: 1px solid black;
+        }
+        .box-container {
+            display: flex;
+            gap: 50px;
+        }
+
+        .user{
+            border: 1px solid rgb(59, 67, 64);
+            background-color: aqua;
+            padding: 20px;
+            font-size: 2em;
+            /* border-left: none; */
+            
+        }
+        .user-container{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card-container{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card-item{
+            border: 1px solid rgb(21, 22, 22);
+            background-color: antiquewhite;
+            padding: 15px;
+            height: 150px;
+            width: 150px;
+            font-size: 2em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box-container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+
+    <div class="user-container" style="margin-top: 20px;">
+        <div class="user">Sana</div>
+        <div class="user">Ullah</div>
+        <div class="user">Tanvi</div>
+        <div class="user">Hridoy</div>
+        <div class="user">Moni</div>
+    </div>
+
+    <div class="card-container">
+        <div class="card-item">1</div>
+        <div class="card-item">2</div>
+        <div class="card-item">3</div>
+        <div class="card-item">4</div>
+        <div class="card-item">5</div>
+        <div class="card-item">6</div>
+        <div class="card-item">7</div>
+        <div class="card-item">8</div>
+        <div class="card-item">9</div>
+        <div class="card-item">10</div>
+        <div class="card-item">11</div>
+        <div class="card-item">12</div>
+        <div class="card-item">13</div>
+        <div class="card-item">14</div>
+        <div class="card-item">15</div>
+         <div class="card-item">7</div>
+        <div class="card-item">8</div>
+        <div class="card-item">9</div>
+        <div class="card-item">10</div>
+        <div class="card-item">11</div>
+        <div class="card-item">12</div>
+        <div class="card-item">13</div>
+        <div class="card-item">14</div>
+        <div class="card-item">15</div>
+    </div>
+
+</body>
+</html>
