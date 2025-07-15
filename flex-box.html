@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            text-transform: capitalize;
+            font-size: 20px;
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid red;
+            height: 80vh;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+            /* border: 1px solid rebeccapurple; */
+        }
+
+        .login-form input {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">FlexBox Layout</h1>
+    <nav>
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="">Profile</a>
+            <a href="">Blog</a>
+            <a href="">about</a>
+        </div>
+        <a href="">Login</a>
+    </nav>
+    <section class="login-container">
+        <form class="login-form">
+            <h3>Please Login</h3>
+            <input type="email" name="" id="" placeholder="Your email" required>
+            <input type="password" name="" id="" placeholder="password" required>
+            <input type="submit" value="Login in">
+        </form>
+    </section>
+</body>
+</html>
